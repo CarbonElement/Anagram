@@ -8,7 +8,7 @@ const words =  fs.readFileSync("./wordlist.txt").toString('utf-8').split(" ");
 let anagrams = []
 
 const Anagram = (word) => {
-
+word = word.toLowerCase();
 
 // Actual anagram finding
 words.forEach(element => {
