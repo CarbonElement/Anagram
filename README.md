@@ -7,6 +7,7 @@ You need to find a list of words or a dictionary word list with words seperated 
 ```javascript
 const Anagram = require('./anagram.js')
 const words = Anagram('Yeah');
+// Prints out all "anagrams" of the word 'Yeah'.
 console.log(words)
 console.log("Number of words: " + words.length);
 ```
